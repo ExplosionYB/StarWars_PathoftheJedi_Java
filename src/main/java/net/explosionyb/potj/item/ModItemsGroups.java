@@ -16,6 +16,7 @@ public class ModItemsGroups {
             FabricItemGroup.builder().displayName(Text.of("Ilum Blocks"))
                     .icon(() -> new ItemStack(ModBlocks.ILUM_ICE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ILUM_ICE);
+                        entries.add(ModBlocks.DARK_ILUM_ICE);
             }).build());
 
     public static void registerItemGroups() {

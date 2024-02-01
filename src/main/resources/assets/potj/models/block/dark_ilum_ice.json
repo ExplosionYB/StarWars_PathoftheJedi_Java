@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "potj:block/dark_ilum_ice"
+  }
+}
