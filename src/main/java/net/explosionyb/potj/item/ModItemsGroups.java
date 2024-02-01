@@ -11,12 +11,11 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemsGroups {
-    public static final ItemGroup ILUM_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup ILUM = Registry.register(Registries.ITEM_GROUP,
             new Identifier(PathoftheJedi.MOD_ID, "ilum"),
             FabricItemGroup.builder().displayName(Text.of("Ilum Blocks"))
                     .icon(() -> new ItemStack(ModBlocks.ILUM_ICE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.ILUM_ICE);
-                        entries.add(ModItems.TEST_ITEM);
             }).build());
 
     public static void registerItemGroups() {
