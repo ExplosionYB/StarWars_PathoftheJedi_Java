@@ -17,6 +17,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.GLASS)));
     public static final Block DARK_ILUM_ICE = registerBlock("dark_ilum_ice",
             new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.GLASS)));
+    public static final Block BRIGHT_ILUM_ICE = registerBlock("bright_ilum_ice",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.GLASS)));
 
     private static Block block;
     private static Block registerBlock(String name, Block block) {
