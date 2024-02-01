@@ -14,8 +14,9 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block ILUM_ICE = registerBlock("ilum_ice",
-            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.GLASS)));
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.DEEPSLATE)));
 
+    private static Block block;
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(PathoftheJedi.MOD_ID, name), block);

@@ -1,6 +1,3 @@
 {
-  "parent" : "block/cube_all",
-  "textures": {
-    "all": "potj:block/ilum_block"
-  }
+  "parent": "potj:block/ilum_ice"
 }

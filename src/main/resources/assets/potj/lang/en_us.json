@@ -1,3 +1,5 @@
 {
-  "item.potj.ilum_ice" : "Ilum Ice"
+  "block.potj.ilum_ice": "Ilum Ice",
+
+  "itemgroup.ilum": "Ilum Blocks"
 }
