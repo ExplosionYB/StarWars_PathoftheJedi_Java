@@ -2,6 +2,10 @@
   "block.potj.ilum_ice": "Ilum Ice",
   "block.potj.dark_ilum_ice": "Dark Ilum Ice",
   "block.potj.bright_ilum_ice": "Bright Ilum Ice",
+  "block.potj.ilum_icewall": "Ilum Icewall",
+  "block.potj.bright_ilum_icewall": "Bright Ilum Icewall",
+  "block.potj.m_bright_ilum_icewall": "Medium Bright Ilum Icewall",
+  "block.potj.s_bright_ilum_icewall": "Semi Bright Ilum Icewall",
 
   "itemgroup.ilum": "Ilum Blocks"
 }

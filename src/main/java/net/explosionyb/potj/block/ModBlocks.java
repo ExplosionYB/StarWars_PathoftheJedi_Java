@@ -20,6 +20,15 @@ public class ModBlocks {
     public static final Block BRIGHT_ILUM_ICE = registerBlock("bright_ilum_ice",
             new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.GLASS)));
 
+    public static final Block ILUM_ICEWALL = registerBlock("ilum_icewall",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block BRIGHT_ILUM_ICEWALL = registerBlock("bright_ilum_icewall",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block M_BRIGHT_ILUM_ICEWALL = registerBlock("m_bright_ilum_icewall",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.DEEPSLATE)));
+    public static final Block S_BRIGHT_ILUM_ICEWALL = registerBlock("s_bright_ilum_icewall",
+            new Block(FabricBlockSettings.copyOf(Blocks.PACKED_ICE).sounds(BlockSoundGroup.DEEPSLATE)));
+
     private static Block block;
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

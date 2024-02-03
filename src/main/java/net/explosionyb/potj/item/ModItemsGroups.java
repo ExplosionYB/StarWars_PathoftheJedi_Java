@@ -18,6 +18,10 @@ public class ModItemsGroups {
                         entries.add(ModBlocks.ILUM_ICE);
                         entries.add(ModBlocks.DARK_ILUM_ICE);
                         entries.add(ModBlocks.BRIGHT_ILUM_ICE);
+                        entries.add(ModBlocks.ILUM_ICEWALL);
+                        entries.add(ModBlocks.BRIGHT_ILUM_ICEWALL);
+                        entries.add(ModBlocks.M_BRIGHT_ILUM_ICEWALL);
+                        entries.add(ModBlocks.S_BRIGHT_ILUM_ICEWALL);
             }).build());
 
     public static void registerItemGroups() {
